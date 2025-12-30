@@ -123,7 +123,7 @@ with gr.Blocks() as demo:
     gr.Markdown("### Hello, I am SpaceBot, your guide to Space Exploration, Ask me about Missions or Astronomy!")
     
     chatbot = gr.Chatbot(label="Conversation", height=400)
-    msg = gr.Textbox(label="Your Question", placeholder="Tell me about Apollo 11...")
+    msg = gr.Textbox(label="Your Question", placeholder="Ask questions related to missions, astronomy, or satellites..")
     
     with gr.Row():
         submit_btn = gr.Button("Submit", variant="primary")
